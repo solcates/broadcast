@@ -1,6 +1,9 @@
 # Broadcast
 
-[![CircleCI](https://circleci.com/gh/solcates/broadcast/tree/master.svg?style=svg)](https://circleci.com/gh/solcates/broadcast/tree/master) [![codecov](https://codecov.io/gh/solcates/broadcast/branch/master/graph/badge.svg)](https://codecov.io/gh/solcates/broadcast) [![Go Report Card](https://goreportcard.com/badge/github.com/solcates/broadcast)](https://goreportcard.com/report/github.com/solcates/broadcast)
+[![CircleCI](https://circleci.com/gh/solcates/broadcast/tree/master.svg?style=svg)](https://circleci.com/gh/solcates/broadcast/tree/master)
+[![codecov](https://codecov.io/gh/solcates/broadcast/branch/master/graph/badge.svg)](https://codecov.io/gh/solcates/broadcast) 
+[![GoDoc](https://godoc.org/github.com/solcates/broadcast?status.svg)](https://godoc.org/github.com/solcates/broadcast)
+[![Go Report Card](https://goreportcard.com/badge/github.com/solcates/broadcast)](https://goreportcard.com/report/github.com/solcates/broadcast)
 
 **broadcast** is a go module for discovering devices/services on a LAN using UDP4 broadcasting(not multicasting).
 

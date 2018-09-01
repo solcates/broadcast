@@ -1,6 +1,7 @@
 package broadcast
 
 import (
+	"fmt"
 	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"
@@ -129,5 +130,17 @@ func Test_broadcaster_Discover(t *testing.T) {
 			}
 
 		})
+	}
+}
+
+func ExampleUDPBroadcaster_Discover() {
+	bc := NewUDPBroadcaster(8080, "Hello?")
+	bc.SetFindself(true)
+	ips, err := bc.Discover()
+	if err != nil {
+		return err
+	}
+	for _, ip := range ips {
+		fmt.Println(ip)
 	}
 }
